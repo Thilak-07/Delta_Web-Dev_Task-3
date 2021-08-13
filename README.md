@@ -1,5 +1,5 @@
 # Poll Booth
-Vikram and Pavithra want to decide upon a design for Delta T Shirt. They decided to put up a poll among Delta members to select a design. So they asked their juniors to develop a portal which facilitates polling among teams.<br>
+Vikram and Pavithra want to decide upon a design for Delta T Shirt. They decided to put up a poll among Delta members to select a design. So they asked their juniors to develop a portal which facilitates polling among teams.
 They need a website which allows creation of teams and polls within the team members built upon a full fledged frontend and backend.
 
 ## Get Started:
