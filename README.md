@@ -6,8 +6,8 @@ They need a website which allows creation of teams and polls within the team mem
 1. Download or clone this repo to your local system.
 2. Install nodejs from Nodejs official website.
 3. Open the terminal in the folder where you have cloned the project.
-4. Now run the following commands.
-```
-npm install
-```
+4. Now run <code>npm install</code> to  install the dependencies.
+5. Now, you should be able to see the node modules folder with all dependencies installed.
+6. now run <code>npm run dev</code> to start the server.
+7. Navigate to http://localhost:3000 !
 
