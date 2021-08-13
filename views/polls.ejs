@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <title>Poll Booth</title>
+        <meta meta="" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" charset="utf-8">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/dashboard.css">
+        <link rel="stylesheet" href="css/polls.css">
+    </head>
+
+    <body>
+        <%- include('./partials/sidebar'); %>
+        
+        <section class="home-section polls">
+            <div class="navig">Polls</div>
+            <% if(docs) { %>
+                <h1 class="select_a_team">Select a Team:</h1>
+                <% for(i=0; i<docs.length; i++) { %>
+                    <h1><a class="the_team" href='/Teams/<%= docs[i] %>'>- <%= docs[i] %></a></h1>
+            <% } } else { %>
+                <h1 class="no_teams">Create/Join a team to access polls :)</h1>
+            <% }%>
+        </section>
+
+        <script src="js/dashboard.js"></script>
+    </body>
+</html>

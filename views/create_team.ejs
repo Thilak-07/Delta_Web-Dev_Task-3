@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <title>Poll Booth</title>
+        <meta meta="" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" charset="utf-8">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="shortcut icon" href="../assets/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="../css/dashboard.css">
+        <link rel="stylesheet" href="../css/create_team.css">
+    </head>
+
+    <body>
+        <%- include('./partials/sidebar'); %>
+        
+        <section class="home-section teams">
+            <div class="back"><a href="/Teams"><i class='bx bx-arrow-back'></i></a></div>
+            <form action="/Teams/CreateTeam" method="POST" class="create_team">
+                <h2 class="title">Create Team</h2>
+                <div class="input-field">
+                    <i class='bx bxl-microsoft-teams'></i>
+                    <input name="teamname" type="text" placeholder="Enter Teamname" required />
+                </div>
+                <input type="submit" value="Create" class="btn">
+                <h1 class="<%= typeof status!='undefined' ? status : '' %>"> <%= typeof alert!='undefined' ? alert : '' %> </h1>
+              </form>
+        </section>
+
+        <script src="../js/dashboard.js"></script>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+.navig a{
+    position: relative;
+    color: white;
+    text-decoration: underline red;
+    padding-left: 20px;
+    top: 20px;
+    font-size: 30px;
+}
+
+.your_teams {
+    position: relative;
+    padding: 20px;
+    margin-top: 5rem;
+    color: yellow;
+    font-size: 25px;
+}
+
+.the_team {
+    position: relative;
+    padding-left: 50px;
+    color: skyblue;
+    font-size: 20px;
+}
+
+.no_teams {
+    position: relative;
+    padding: 20px;
+    margin-top: 5rem;
+    color: rgb(24, 199, 24);
+    font-size: 20px;
+}

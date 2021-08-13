@@ -1,0 +1,25 @@
+.navig a{
+    position: relative;
+    color: white;
+    text-decoration: underline red;
+    padding-left: 20px;
+    top: 20px;
+    font-size: 30px;
+}
+
+.back a {
+    position: fixed;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 25px;
+    right: 0;
+}
+
+.no_polls {
+    position: relative;
+    padding: 20px;
+    margin-top: 5rem;
+    color: rgb(24, 199, 24);
+    font-size: 20px;
+}
