@@ -9,5 +9,5 @@ They need a website which allows creation of teams and polls within the team mem
 4. Now run <code>npm install</code> to  install the dependencies.
 5. Now, you should be able to see the node modules folder with all dependencies installed.
 6. now run <code>npm run dev</code> to start the server.
-7. Navigate to http://localhost:3000 !
+7. Navigate to http://localhost:3000, you should be able to view the signin page.
 
